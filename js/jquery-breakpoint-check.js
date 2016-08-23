@@ -23,7 +23,7 @@
         var element, erg;
 
         element = $("<div/>", {
-            "class": "visible-" + breakPoint
+            "class": "hidden-" + breakPoint + "-down"
         }).appendTo("body");
 
         erg = element.is(":visible");
