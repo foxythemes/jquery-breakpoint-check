@@ -26,7 +26,7 @@
             "class": "hidden-" + breakPoint + "-down"
         }).appendTo("body");
 
-        erg = element.is(":visible");
+        erg = element.is(":hidden");
         element.remove();
 
         return erg

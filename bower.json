@@ -1,6 +1,6 @@
 {
   "name": "jquery-breakpoint-check",
-  "description": "Check/Detect the current visibility of bootstrap 3 breakpoints.",
+  "description": "Check/Detect the current visibility of bootstrap 4 breakpoints.",
   "keywords": [
     "js",
     "jquery",

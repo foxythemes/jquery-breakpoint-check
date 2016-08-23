@@ -1,9 +1,9 @@
-jQuery Bootstrap 3 Breakpoint Check
+jQuery Bootstrap 4 Breakpoint Check
 ===================================
 
-Check the current visibility of bootstrap 3 breakpoints.
+Check the current visibility of bootstrap 4 breakpoints.
 
-### Why another breakpoint check for bootstrap 3?
+### Why another breakpoint check for bootstrap 4?
 
 The plugin I have created for simple reasons:
 
