@@ -1,5 +1,5 @@
 /*!
- * jQuery bootstrap 3 breakpoint check
+ * jQuery bootstrap 4 breakpoint check
  * Check the current visibility of bootstrap 3 breakpoints
  *
  * @example `$.isXs()` function alias for `$.isBreakpoint("xs")`
@@ -23,7 +23,7 @@
         var element, erg;
 
         element = $("<div/>", {
-            "class": "hidden-" + breakPoint + "-down"
+            "class": "d-" + breakPoint + "-block"
         }).appendTo("body");
 
         erg = element.is(":hidden");
