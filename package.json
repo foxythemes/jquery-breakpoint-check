@@ -1,0 +1,19 @@
+{
+  "name": "jquery-breakpoint-check",
+  "version": "1.0.0",
+  "description": "jQuery Bootstrap 3 Breakpoint Check ===================================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/miguelmich/jquery-breakpoint-check.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/miguelmich/jquery-breakpoint-check/issues"
+  },
+  "homepage": "https://github.com/miguelmich/jquery-breakpoint-check#readme"
+}
