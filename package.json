@@ -1,6 +1,6 @@
 {
   "name": "@foxythemes/jquery-breakpoint-check",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "jQuery Bootstrap 3 Breakpoint Check ===================================",
   "main": "index.js",
   "scripts": {
