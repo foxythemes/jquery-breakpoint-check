@@ -8,12 +8,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/miguelmich/jquery-breakpoint-check.git"
+    "url": "git+https://github.com/foxythemes/jquery-breakpoint-check.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/miguelmich/jquery-breakpoint-check/issues"
+    "url": "https://github.com/foxythemes/jquery-breakpoint-check/issues"
   },
-  "homepage": "https://github.com/miguelmich/jquery-breakpoint-check#readme"
+  "homepage": "https://github.com/foxythemes/jquery-breakpoint-check#readme"
 }
