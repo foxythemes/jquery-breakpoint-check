@@ -1,6 +1,6 @@
 {
     "name": "cakebake/jquery-breakpoint-check",
-    "description": "Check the current visibility of bootstrap 3 breakpoints",
+    "description": "Check the current visibility of bootstrap 4 breakpoints",
     "type": "component",
     "keywords": [
         "breakpoint",
