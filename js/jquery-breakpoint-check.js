@@ -21,10 +21,16 @@
      * @returns {boolean}
      */
     $.isBreakpoint = function (breakPoint) {
-        var element, erg;
+        var element, erg, utilCls;
+
+        if (breakPoint == "xs"){
+            utilCls = "d-none";
+        }else {
+            utilCls = "d-" + breakPoint + "-none";
+        }
 
         element = $("<div/>", {
-            "class": "d-" + breakPoint + "-block"
+            "class": utilCls
         }).appendTo("body");
 
         erg = element.is(":hidden");
