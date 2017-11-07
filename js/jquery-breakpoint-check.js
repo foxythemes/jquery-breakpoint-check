@@ -6,6 +6,7 @@
  * @example `$.isSm()` function alias for `$.isBreakpoint("sm")`
  * @example `$.isMd()` function alias for `$.isBreakpoint("md")`
  * @example `$.isLg()` function alias for `$.isBreakpoint("lg")`
+ * @example `$.isXl()` function alias for `$.isBreakpoint("xl")`
  * @version 1.0.0
  * @copyright Jens A. (cakebake) and other contributors
  * @license Released under the MIT license
@@ -14,7 +15,7 @@
 ;(function ($) {
 
     /**
-     * Base function to check the current visibility of an bootstrap 3 breakpoint
+     * Base function to check the current visibility of an bootstrap 4 breakpoint
      *
      * @param {string} breakPoint Something like xs|sm|md|lg
      * @returns {boolean}
@@ -35,7 +36,7 @@
     $.extend($, {
 
         /**
-         * Check the current visibility of bootstrap 3 "xs" breakpoint
+         * Check the current visibility of bootstrap 4 "xs" breakpoint
          * Shorthand function alias for $.isBreakpoint("xs")
          *
          * @returns {boolean}
@@ -45,7 +46,7 @@
         },
 
         /**
-         * Check the current visibility of bootstrap 3 "sm" breakpoint
+         * Check the current visibility of bootstrap 4 "sm" breakpoint
          * Shorthand function alias for $.isBreakpoint("sm")
          *
          * @returns {boolean}
@@ -55,7 +56,7 @@
         },
 
         /**
-         * Check the current visibility of bootstrap 3 "md" breakpoint
+         * Check the current visibility of bootstrap 4 "md" breakpoint
          * Shorthand function alias for $.isBreakpoint("md")
          *
          * @returns {boolean}
@@ -65,13 +66,23 @@
         },
 
         /**
-         * Check the current visibility of bootstrap 3 "lg" breakpoint
+         * Check the current visibility of bootstrap 4 "lg" breakpoint
          * Shorthand function alias for $.isBreakpoint("lg")
          *
          * @returns {boolean}
          */
         isLg: function () {
             return $.isBreakpoint("lg")
+        },
+
+        /**
+         * Check the current visibility of bootstrap 4 "lg" breakpoint
+         * Shorthand function alias for $.isBreakpoint("lg")
+         *
+         * @returns {boolean}
+         */
+        isXl: function () {
+            return $.isBreakpoint("xl")
         }
 
     });
