@@ -23,10 +23,22 @@
     $.isBreakpoint = function (breakPoint) {
         var element, erg, utilCls;
 
-        if (breakPoint == "xs"){
-            utilCls = "d-none";
-        }else {
-            utilCls = "d-" + breakPoint + "-none";
+        switch(breakPoint) {
+            case "xs":
+                utilCls = "d-none d-sm-block";
+                break;
+            case "sm":
+                utilCls = "d-sm-none d-md-block";
+                break;
+            case "md":
+                utilCls = "d-md-none d-lg-block";
+                break;
+            case "lg":
+                utilCls = "d-lg-none d-xl-block";
+                break;
+            case "xl":
+                utilCls = "d-xl-none";
+                break;
         }
 
         element = $("<div/>", {
