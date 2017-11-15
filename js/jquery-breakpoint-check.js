@@ -28,16 +28,16 @@
                 utilCls = "d-none d-sm-block";
                 break;
             case "sm":
-                utilCls = "d-sm-none d-md-block";
+                utilCls = "d-none d-md-block";
                 break;
             case "md":
-                utilCls = "d-md-none d-lg-block";
+                utilCls = "d-none d-lg-block";
                 break;
             case "lg":
-                utilCls = "d-lg-none d-xl-block";
+                utilCls = "d-none d-xl-block";
                 break;
             case "xl":
-                utilCls = "d-xl-none";
+                utilCls = "d-none";
                 break;
         }
 
